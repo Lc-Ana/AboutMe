@@ -1,0 +1,21 @@
+body {
+  background-image: url("src\images\bc1.jpg");
+}
+
+.mainText {
+  text-align: center;
+}
+.firstLine {
+  color: grey;
+  font-size: 40px;
+}
+.secondLine {
+  margin-top: 0.1%;
+}
+.mainView {
+  text-align: center;
+}
+.ulHeader2 {
+  text-align: center;
+  display: inline;
+}
