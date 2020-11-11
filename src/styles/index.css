@@ -5,6 +5,10 @@ body {
 .mainText {
   text-align: center;
 }
+.lcanne {
+  color: grey;
+  font-size: 35px;
+}
 .firstLine {
   color: grey;
   font-size: 40px;
