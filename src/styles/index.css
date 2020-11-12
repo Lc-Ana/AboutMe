@@ -1,6 +1,23 @@
 body {
-  background-image: url("src\images\bc1.jpg");
+  background-image: url("../images/bc1.jpg");
 }
+.headerul {
+  list-style-type: none;
+  display: inline-flex;
+  width: auto;
+}
+.headli {
+  float: center;
+  background-color: transparent;
+  opacity: 0.5;
+  text-align: center;
+}
+li a {
+  padding: 10px;
+  border-right: 1px solid rgb(88, 89, 92);
+  border-left: 1px solid rgb(88, 89, 92);
+}
+
 .mainText {
   text-align: center;
 }
@@ -17,8 +34,4 @@ body {
 }
 .mainView {
   text-align: center;
-}
-.ulHeader2 {
-  text-align: center;
-  display: inline;
 }
