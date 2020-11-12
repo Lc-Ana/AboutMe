@@ -16,8 +16,15 @@ li a {
   padding: 10px;
   border-right: 1px solid rgb(88, 89, 92);
   border-left: 1px solid rgb(88, 89, 92);
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+li :hover {
+  background-color: whitesmoke;
+  opacity: 0.5;
+}
 .mainText {
   text-align: center;
 }
