@@ -1,3 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
 body {
   background-image: url("../images/bc1.jpg");
 }
@@ -28,17 +37,96 @@ li :hover {
 .mainText {
   text-align: center;
 }
-.lcanne {
-  color: grey;
-  font-size: 35px;
-}
 .firstLine {
-  color: grey;
-  font-size: 40px;
+  color: rgb(104, 101, 101);
+  font-size: 37px;
+  font-weight: bold;
+  text-shadow: 2px 1px rgb(219, 219, 219);
 }
 .secondLine {
-  margin-top: 0.1%;
+  margin-top: -2%;
+  font-family: "Dancing Script";
+  font-size: 23px;
+  text-shadow: 2px 1px grey;
 }
 .mainView {
   text-align: center;
+  padding-top: 20px;
+  border: white;
+  -webkit-filter: drop-shadow(15px 15px 0 rgba(0, 0, 0, 0.192))
+    drop-shadow(-15px -15px 0 rgba(0, 0, 0, 0.192));
+  filter: drop-shadow(15px 15px 0 rgba(0, 0, 0, 0.192))
+    drop-shadow(-15px -15px 0 rgba(0, 0, 0, 0.192));
+}
+.footer {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 3vh;
+}
+a {
+  color: rgba(255, 255, 255, 0.788);
+}
+p > a:hover {
+  color: #d9d9d9;
+}
+._14 {
+  font-size: 14px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  bottom: 0;
+}
+.footer-social-icons {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.social-icon {
+  color: #fff;
+}
+.social-icons li {
+  display: inline;
+}
+.social-icons a {
+  color: rgb(0, 0, 0);
+}
+.fa-facebook {
+  padding: 5px 7px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-facebook:hover {
+  background-color: #0e719b;
+}
+.fa-instagram {
+  padding: 5px 7px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-instagram:hover {
+  background-color: #813f60;
+}
+.fa-linkedin {
+  padding: 5px 7px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.fa-linkedin:hover {
+  background-color: #0a6992;
 }
