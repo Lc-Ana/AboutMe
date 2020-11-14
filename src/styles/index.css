@@ -10,6 +10,7 @@ body {
 body {
   background-image: url("../images/bc1.jpg");
 }
+/* header styles*/
 .headerul {
   list-style-type: none;
   display: inline-flex;
@@ -34,6 +35,7 @@ li :hover {
   background-color: whitesmoke;
   opacity: 0.5;
 }
+/* mainview styles*/
 .mainText {
   text-align: center;
 }
@@ -58,6 +60,8 @@ li :hover {
   filter: drop-shadow(15px 15px 0 rgba(0, 0, 0, 0.192))
     drop-shadow(-15px -15px 0 rgba(0, 0, 0, 0.192));
 }
+/*footer styles*/
+
 .footer {
   background-color: transparent;
   position: absolute;
